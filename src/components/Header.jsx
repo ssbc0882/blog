@@ -39,7 +39,9 @@ function Header() {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button gradientduotone="purpleToBlue">Sign In</Button>
+          <Button gradientduotone="purpleToBlue" outline>
+            Sign In
+          </Button>
         </Link>
         <NavbarToggle />
       </div>
